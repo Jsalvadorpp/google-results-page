@@ -1,0 +1,57 @@
+
+/*reset default settings*/
+*{
+    margin: 0;
+    padding: 0;
+}
+/*global*/
+.container{
+    width: 96%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: auto;
+}
+ul{
+    list-style-type: none;
+    display: inline;
+}
+li,
+a,
+form{
+    text-decoration: none;
+    display: inline;
+}
+/*header*/
+header{
+    height: 60px;
+}
+header .logo,
+header .search-box{
+    display: inline;  
+}
+header .logo img{
+    width: 92px;
+    height: 30px;
+    margin-top: 35px;
+    margin-right: 10px;
+}
+header .search-box form{
+    margin: 0px 10px 20px 10px;
+}
+header .nav-icons{
+    float: right;
+}
+
+.search-box{
+    width: 60px;
+}
+.search-box input[type="text"]{
+    width: 400px;
+    height: 40px;
+    border-radius: 50px;
+}
+.search-box button{
+    width: 40px;
+    height: 40px;
+    border-width: 0;  
+}
